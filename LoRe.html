@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NGT48 Fan Club</title>
+<link href="CSS/LoRe.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+<div class="container">
+  <header>
+	  <div class="one"><img src="images/NGT.jpg" alt="NGT48" width="82px"/></div>
+	  <div class="two"><img src="images/NGT.jpg" alt="NGT48" width="82px"/></div>
+    <div class="primary_header">
+      <h1 class="title"> NGT48 Fan Club</h1>
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+        <li><a href="index.html" target="_self">HOME</a></li>
+        <li><a href="member.html">PROFILE</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+        <li><a href="#">VARIETY</a></li>
+        <li><a href="#">FORUM</a></li>
+        <li><a href="LoRe.html">LOGIN/REGISTER</a></li>
+      </ul>
+    </nav>
+  </header>
+	<div class="three">
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+	  <h2 align="center" class="lr">LOGIN</h2>
+	  <hr color="#FF0004"/>
+	  <div>
+	  <form action="#" method="get" name="登陆">
+	<p align="center">
+		用&nbsp;户&nbsp;名：<input type="text" pattern="^[a-zA-Z]{1}[a-zA-Z0-9]{5,19}$" required /><br/></p>
+	<p align="center">
+		密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" pattern="^[a-zA-Z0-9_]\w{5,17}$" required/><br/></p>
+		<p align="center">
+			<input type="submit" value="登陆"/></p>
+		</form>
+	  </div>
+    </section>
+	</div>
+	
+		<div class="three">
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+	  <h2 align="center" class="lr">REGISTER</h2>
+	  <hr color="#FF0004"/>
+	  <div class="re">
+	  <form action="#" method="get" name="注册">
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		用&nbsp;户&nbsp;名：<input style="width: 300px;" type="text" name="username" id="us" pattern="^[a-zA-Z]{1}[a-zA-Z0-9]{5,19}$" required placeholder="以字母开始，且长度>=6个字符、<=20个字符"/><br/></p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		密&nbsp;码：<input style="width: 300px;" type="password" name="pw" id="pwd" pattern="^[a-zA-Z0-9_]\w{5,17}$" required onkeyup="lalala()" placeholder="密码不能和用户名相同，且长度>=6、<=20"/><span id="tishi1"></span><br/></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;
+	重&nbsp;复&nbsp;密&nbsp;码：<input style="width: 300px;" type="password" name="pw" id="pwd1" required onkeyup="validate()"/><span id="tishi"></span><br/></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;
+	手&nbsp;机&nbsp;号&nbsp;码：<input style="width: 300px;" type="tel" name="telp" required pattern="^[1]\d{10}$" placeholder="11位数字，第1位为1"/><br/></p>
+	<p>身&nbsp;份&nbsp;证&nbsp;号&nbsp;码：<input style="width: 300px;" type="text" name="mycard" pattern="^[0-9]{14}[0-9x]|[0-9]{17}[0-9x]$" required placeholder="15或者18位，末位可能会有x"/><br/></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	邮&nbsp;箱：<input style="width: 300px;" type="email" name="myemail" pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required/>&nbsp;</p>
+		<p align="center">
+			<input type="submit" value="提交" id="submit"/>&nbsp;&nbsp;<input type="reset" value="重置"/></p>
+		</form>
+	  </div>
+    </section>
+	</div>
+  <footer class="secondary_header footer">
+    <div class="copyright">Make by- <strong>郭莹</strong></div>
+  </footer>
+</div>
+<script type="text/javascript" src="js/ngt.js" ></script>
+</body>
+</html>
